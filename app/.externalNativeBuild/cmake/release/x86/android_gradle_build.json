@@ -1,0 +1,41 @@
+
+{
+	"buildFiles" : 
+	[
+		"/Users/med/Desktop/android-ndk-master 3/hello-jniCallback/jni/CMakeLists.txt"
+	],
+	"cFileExtensions" : [ "c" ],
+	"cleanCommands" : 
+	[
+		"/Users/med/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/med/Desktop/android-ndk-master\\ 3/hello-jniCallback/app/.externalNativeBuild/cmake/release/x86 --target clean"
+	],
+	"libraries" : 
+	{
+		"hello-jnicallback-Release-x86" : 
+		{
+			"abi" : "x86",
+			"artifactName" : "hello-jnicallback",
+			"buildCommand" : "/Users/med/Library/Android/sdk/cmake/3.6.4111459/bin/cmake --build /Users/med/Desktop/android-ndk-master\\ 3/hello-jniCallback/app/.externalNativeBuild/cmake/release/x86 --target hello-jnicallback",
+			"buildType" : "release",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=i686-none-linux-android21 --gcc-toolchain=/Users/med/Library/Android/sdk/ndk-bundle/toolchains/x86-4.9/prebuilt/darwin-x86_64 --sysroot=/Users/med/Library/Android/sdk/ndk-bundle/sysroot -Dhello_jnicallback_EXPORTS  -isystem /Users/med/Library/Android/sdk/ndk-bundle/sysroot/usr/include/i686-linux-android -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mstackrealign -Wa,--noexecstack -Wformat -Werror=format-security  -O2 -DNDEBUG  -fPIC      -c ",
+					"src" : "/Users/med/Desktop/android-ndk-master 3/hello-jniCallback/jni/hello-jnicallback.c",
+					"workingDirectory" : "/Users/med/Desktop/android-ndk-master 3/hello-jniCallback/app/.externalNativeBuild/cmake/release/x86"
+				}
+			],
+			"output" : "/Users/med/Desktop/android-ndk-master 3/hello-jniCallback/app/build/intermediates/cmake/release/obj/x86/libhello-jnicallback.so",
+			"toolchain" : "3803763656572292306"
+		}
+	},
+	"toolchains" : 
+	{
+		"3803763656572292306" : 
+		{
+			"cCompilerExecutable" : "/Users/med/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang",
+			"cppCompilerExecutable" : "/Users/med/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++"
+		}
+	}
+}
